@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+body {
+    background: url(1.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.main{
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+}
+
+        .icon {
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+
+        .logo {
+            color: #ff7200;
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-top: 5px;
+        }
+
+        .menu {
+            
+            float: left;
+            height: 70px;
+        }
+
+        ul {
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+
+        ul li a:hover {
+            color: #ff7200;
+        }
+
+        .content {
+            width: 98%;
+            min-height: 100vh;
+            margin: auto;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            padding-top: 50px;
+
+        }
+        .content h1{
+        	margin-top:0px;
+        	margin-bottom:20px;
+        }
+
+        .table-container {
+            width: 100%; 
+            overflow-x: auto; 
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px; 
+        }
+
+        th, td {
+        	
+        	
+        	font-family: 'Arial';
+            padding: 10px; /* Padding for table cells */
+            text-align: left; /* Align text to the left */
+            color: #fff; /* Text color */
+            border-bottom: 1px solid #ff7200; /* Bottom border for rows */
+        }
+
+        th {
+            background-color: #ff7200; /* Header background color */
+            color: #000; /* Header text color */
+            font-family: Arial; /* Header font */
+        }
+
+        tr:hover {
+            background-color: rgba(255, 114, 0, 0.3); /* Highlight row on hover */
+        }
+        td.action-column {
+	    width: 150px; /* Set the desired width for the action column */
+	    display: flex; /* Use flexbox for alignment */
+	    justify-content: space-between; /* Distribute space between buttons */
+	    align-items: center; /* Center buttons vertically */
+		}
+	
+	/* Style for buttons */
+		.action-button {
+		font-family: 'Arial';
+		font-weight: bold;
+	    width: 80px; /* Set a width for the buttons */
+	    height: 30px; /* Set a height for the buttons */
+	    background-color: #ff7200; /* Button background color */
+	    color: #000; /* Button text color */
+	    border: none; /* Remove border */
+	    border-radius: 5px; /* Rounded corners */
+	    cursor: pointer; /* Change cursor to pointer */
+	    margin-right: 5px; /* Space between buttons */
+	    transition: background-color 0.3s ease; /* Add transition for hover effect */
+		}
+
+		.action-button:hover {
+		    background-color: #fff; /* Change background on hover */
+		}
+
+        .icons a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .icons ion-icon {
+            color: #fff;
+            font-size: 30px;
+            padding-left: 14px;
+            padding-top: 5px;
+            transition: 0.3s ease;
+        }
+
+        .icons ion-icon:hover {
+            color: #ff7200;
+        }

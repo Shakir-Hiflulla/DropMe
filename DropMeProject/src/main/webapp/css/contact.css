@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(1.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+
+.form, .faq {
+    width: 48%;  
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.form h2, .faq h2 {
+    color: #ff7200;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form input, .form textarea {
+    width: 100%;  
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form textarea {
+    height: 100px; 
+}
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #ff7200;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 100%;  
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+
+.faq {
+    text-align: left;
+}
+
+.qstn {
+    font-weight: bold;
+    color: #ff7200;
+    margin-bottom: 5px;
+}
+
+.rply {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .form, .faq {
+        width: 100%; 
+        margin: 10px 0;
+    }
+}

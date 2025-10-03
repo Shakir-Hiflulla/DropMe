@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.navbar {
+    height: 60px;
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced properly */
+    align-items: center;
+    padding: 0 20px; /* Added padding to the sides */
+}
+
+.user-options {
+    position: absolute;
+    right: 20px; /* Fixes the position of the user options to the right corner */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.user-options ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.user-options ion-icon:hover {
+    color: #ff7200;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+    flex-wrap: nowrap; /* Prevent the list from wrapping */
+}
+
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
