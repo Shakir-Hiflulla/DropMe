@@ -43,9 +43,6 @@ DropMe/
 ├── README.md
 └── LICENSE
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Setup & Installation
